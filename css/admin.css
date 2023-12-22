@@ -1,0 +1,67 @@
+#adminHeader{
+    position: relative;
+    margin-left:2%;
+    
+}
+#headerId{
+    position: relative;
+}
+.adminTitle{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.userList{
+    width: 80%;
+    margin: 1rem auto;
+    padding: 0.8rem;
+    overflow: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: #616161 0px 0px 4px 1px;
+}
+.userRow{
+    width: 100%;
+    
+    border-radius: 0.5rem;
+     -webkit-border-radius: 0.5rem;
+     -moz-border-radius: 0.5rem;
+     -ms-border-radius: 0.5rem;
+     -o-border-radius: 0.5rem;
+     box-shadow: #616161 0px 0px 4px 1px;
+     padding: 0.8rem 1rem;
+     display: flex;
+     gap: 1rem;
+     font-size: 20px;
+     align-items: center;
+     border: 1px solid;
+}
+
+.actions{
+    margin-left:auto ;
+    display: flex;
+    gap: 1rem;
+}
+.userAction{
+    padding: 0.5rem;
+    border: none;
+    background-color: #c8e698;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.userAction:hover{
+    cursor: pointer;
+    background-color: #819b57;
+    color: #c8e698;
+}
